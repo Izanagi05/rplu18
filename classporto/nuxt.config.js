@@ -9,27 +9,27 @@ export default {
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { property: 'og:type', content: 'website' },
-      { property: 'og:url', content: 'https://izanagifarisaslam.vercel.app/' },
+      { property: 'og:url', content: 'https://rplu18.vercel.app/' },
       { property: 'og:title', content: 'RPL U 18' },
-      { property: 'og:description', content: 'Halo saya Izanagi Faris Aslam saya tertarik dengan web development, videografi, fotografi, dan aplikasi. Jelajahi karya kreatif dan proyek inovatif saya' },
-      { property: 'og:image', content: 'https://izanagifarisaslam.vercel.app/_nuxt/img/foto.dabd7ce.jpg' },
+      { property: 'og:description', content: 'RPL U Angkatan 18' },
+      { property: 'og:image', content: 'https://rplu18.vercel.app/_nuxt/img/bgawal.f2374ae.jpg' },
       // Meta tags Twitter
       { property: 'twitter:card', content: 'summary_large_image' },
-      { property: 'twitter:url', content: 'https://izanagifarisaslam.vercel.app/' },
+      { property: 'twitter:url', content: 'https://rplu18.vercel.app/' },
       { property: 'twitter:title', content: 'RPL U 18' },
-      { property: 'twitter:description', content: 'Halo saya Izanagi Faris Aslam saya tertarik dengan web development, videografi, fotografi, dan aplikasi. Jelajahi karya kreatif dan proyek inovatif saya' },
-      { property: 'twitter:image', content: 'https://izanagifarisaslam.vercel.app/_nuxt/img/foto.dabd7ce.jpg' },
-      { property: 'linkedin:url', content: 'https://izanagifarisaslam.vercel.app/' },
+      { property: 'twitter:description', content: 'RPL U Angkatan 18' },
+      { property: 'twitter:image', content: 'https://rplu18.vercel.app/_nuxt/img/bgawal.f2374ae.jpg' },
+      { property: 'linkedin:url', content: 'https://rplu18.vercel.app/' },
       { property: 'linkedin:title', content: 'RPL U 18' },
-      { property: 'linkedin:description', content: 'Halo saya Izanagi Faris Aslam saya tertarik dengan web development, videografi, fotografi, dan aplikasi. Jelajahi karya kreatif dan proyek inovatif saya' },
-      { property: 'linkedin:image', content: 'https://izanagifarisaslam.vercel.app/_nuxt/img/foto.dabd7ce.jpg' },
+      { property: 'linkedin:description', content: 'RPL U Angkatan 18' },
+      { property: 'linkedin:image', content: 'https://rplu18.vercel.app/_nuxt/img/bgawal.f2374ae.jpg' },
       {
         hid: "description",
         name: "description",
         content:
-          "Halo saya Izanagi Faris Aslam saya tertarik dengan web development, videografi, fotografi, dan aplikasi. Jelajahi karya kreatif dan proyek inovatif saya",
+          "RPL U Angkatan 18",
       },
-      { hid: "description", name: "author", content: "Izanagi Faris Aslam" },
+      { hid: "description", name: "author", content: "RPL U 18" },
       {
         name: "keywords",
         content:
@@ -42,9 +42,9 @@ export default {
       {
         type: "application/ld+json",
         json: {
-          "@context": "https://izanagifarisaslam.vercel.app/",
+          "@context": "https://rplu18.vercel.app/",
           "@type": "Person",
-          name: "Izanagi Faris Aslam",
+          name: "RPL U 18",
           url: "https://web.whatsapp.com/",
           sameAs: [
             "https://github.com/izanagi05",
@@ -54,7 +54,7 @@ export default {
           jobTitle: "Web Developer, Videographer, Photographer, Musician",
           worksFor: {
             "@type": "Web Developer",
-            name: "Izanagi Faris Aslam",
+            name: "RPL U 18",
           },
         },
       },

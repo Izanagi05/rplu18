@@ -59,8 +59,8 @@
         src="~/assets/img/ybk/iconybk/4.png"
         width="50px"
       />
-      <img
-        class="absolute icn5"
+      <img @click="$router.push('/galery/1')"
+        class="absolute icn5 btn btn-outline"
         src="~/assets/img/ybk/iconybk/5.png"
         width="80px"
       />
@@ -80,6 +80,7 @@
         width="100px"
       />
     </div>
+
   </div>
 </template>
 <script>

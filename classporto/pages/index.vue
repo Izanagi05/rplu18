@@ -27,6 +27,7 @@
       </div>
     </div>
     <book2 />
+
     <div class="myblek relative text-white p-6">
       <div class="grid grid-cols-12 gap-2 mb-6">
         <div class="col-span-2">
@@ -92,7 +93,7 @@
           />
         </div>
       </div>
-      <div class="">hai</div>
+
     </div>
     <sectionBawah />
   </div>
