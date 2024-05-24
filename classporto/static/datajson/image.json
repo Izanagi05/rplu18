@@ -1,0 +1,306 @@
+{
+  "data": [
+    {
+      "judul": "LDKPD CORE",
+      "subjudul": "Awal dari sepatu hitam yang berpasangan",
+      "foto": "/datajson/galery/img/ldkpd/7.jpg",
+      "subgalery": {
+        "sub1":[
+        {
+          "foto": "/datajson/galery/img/ldkpd/1.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/ldkpd/2.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/ldkpd/3.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/ldkpd/4.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/ldkpd/5.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/ldkpd/6.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+         {
+          "foto": "/datajson/galery/img/ldkpd/7.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/ldkpd/8.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/ldkpd/9.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/ldkpd/10.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/ldkpd/11.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/ldkpd/12.jpg",
+          "alt": "Deskripsi Foto 1"
+        }
+      ]
+    }
+    },
+    {
+      "judul": "PJBL Core",
+      "subjudul": "Melangkah bersama dalam setiap kesempatan",
+      "foto": "/datajson/galery/img/pjblcore/3.jpg",
+      "subgalery": {
+        "sub1":[
+        {
+          "foto": "/datajson/galery/img/pjblcore/1.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/pjblcore/2.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/pjblcore/3.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/pjblcore/4.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/pjblcore/5.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/pjblcore/6.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/pjblcore/7.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+          {
+            "foto": "/datajson/galery/img/pjblcore/8.jpg",
+            "alt": "Deskripsi Foto 1"
+          },
+          {
+            "foto": "/datajson/galery/img/pjblcore/9.jpg",
+            "alt": "Deskripsi Foto 1"
+          },
+          {
+            "foto": "/datajson/galery/img/pjblcore/10.jpg",
+            "alt": "Deskripsi Foto 1"
+          },
+          {
+            "foto": "/datajson/galery/img/pjblcore/11.jpg",
+            "alt": "Deskripsi Foto 1"
+          },
+          {
+            "foto": "/datajson/galery/img/pjblcore/12.jpg",
+            "alt": "Deskripsi Foto 1"
+          },
+          {
+            "foto": "/datajson/galery/img/pjblcore/13.jpg",
+            "alt": "Deskripsi Foto 1"
+          },
+        {
+          "foto": "/datajson/galery/img/pjblcore/14.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/pjblcore/15.jpg",
+          "alt": "Deskripsi Foto 1"
+        }
+
+      ]
+    }
+    },
+    {
+      "judul": "Teacher's Day",
+      "subjudul": "Berkat guru tulus dan sabar tanpa batasan",
+      "foto": "/datajson/galery/img/teachersdaycore/3.jpg",
+      "subgalery": {
+        "sub1":[
+        {
+          "foto": "/datajson/galery/img/teachersdaycore/1.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/teachersdaycore/2.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/teachersdaycore/3.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/teachersdaycore/4.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/teachersdaycore/5.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/teachersdaycore/6.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/teachersdaycore/7.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+          {
+            "foto": "/datajson/galery/img/teachersdaycore/8.jpg",
+            "alt": "Deskripsi Foto 1"
+          },
+          {
+            "foto": "/datajson/galery/img/teachersdaycore/9.jpg",
+            "alt": "Deskripsi Foto 1"
+          },
+          {
+            "foto": "/datajson/galery/img/teachersdaycore/10.jpg",
+            "alt": "Deskripsi Foto 1"
+          },
+          {
+            "foto": "/datajson/galery/img/teachersdaycore/11.jpg",
+            "alt": "Deskripsi Foto 1"
+          },
+          {
+            "foto": "/datajson/galery/img/teachersdaycore/12.jpg",
+            "alt": "Deskripsi Foto 1"
+          },
+          {
+            "foto": "/datajson/galery/img/teachersdaycore/13.jpg",
+            "alt": "Deskripsi Foto 1"
+          },
+        {
+          "foto": "/datajson/galery/img/teachersdaycore/14.jpg",
+          "alt": "Deskripsi Foto 1"
+        }
+      ]
+    }
+    },
+
+    {
+      "judul": "Graduation Core",
+      "subjudul": "Dan ditutup dengan jas hitam demi masa depan",
+      "foto": "/datajson/galery/img/graduationcore/25.jpg",
+      "subgalery": {
+        "sub1":[
+        {
+          "foto": "/datajson/galery/img/graduationcore/1.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/graduationcore/2.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/graduationcore/3.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/graduationcore/4.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/graduationcore/5.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/graduationcore/6.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/graduationcore/7.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/graduationcore/8.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/graduationcore/9.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/graduationcore/10.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/graduationcore/11.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/graduationcore/12.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/graduationcore/13.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+         {
+          "foto": "/datajson/galery/img/graduationcore/14.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/graduationcore/15.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/graduationcore/16.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/graduationcore/17.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/graduationcore/18.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/graduationcore/19.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/graduationcore/20.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/graduationcore/21.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/graduationcore/22.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/graduationcore/23.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/graduationcore/24.jpg",
+          "alt": "Deskripsi Foto 1"
+        },
+        {
+          "foto": "/datajson/galery/img/graduationcore/25.jpg",
+          "alt": "Deskripsi Foto 1"
+        }
+      ]
+    }
+    }
+  ]
+}
