@@ -1,4 +1,5 @@
-import siteMeta, { buildSeoMeta } from './data/siteMeta'
+const siteMeta = require('./data/siteMeta')
+const { buildSeoMeta } = siteMeta
 
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
