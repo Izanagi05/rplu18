@@ -1,0 +1,6 @@
+# Robots.txt for Classporto — XII RPL U (RPL Unggulan / Industri) Angkatan 18 SMKN 2 Kota Bekasi
+User-agent: *
+Allow: /
+
+Host: https://rplu18.vercel.app
+Sitemap: https://rplu18.vercel.app/sitemap.xml

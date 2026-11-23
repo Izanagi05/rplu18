@@ -1,71 +1,100 @@
+import siteMeta, { buildSeoMeta } from './data/siteMeta'
+
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'RPL U 18',
+    title: siteMeta.title,
     htmlAttrs: {
-      lang: 'en'
+      lang: 'id',
     },
     meta: [
-      { charset: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { property: 'og:type', content: 'website' },
-      { property: 'og:url', content: 'https://rplu18.vercel.app/' },
-      { property: 'og:title', content: 'RPL U 18' },
-      { property: 'og:description', content: 'RPL U Angkatan 18' },
-      { property: 'og:image', content: 'https://rplu18.vercel.app/_nuxt/img/bgawal.f2374ae.jpg' },
-      // Meta tags Twitter
-      { property: 'twitter:card', content: 'summary_large_image' },
-      { property: 'twitter:url', content: 'https://rplu18.vercel.app/' },
-      { property: 'twitter:title', content: 'RPL U 18' },
-      { property: 'twitter:description', content: 'RPL U Angkatan 18' },
-      { property: 'twitter:image', content: 'https://rplu18.vercel.app/_nuxt/img/bgawal.f2374ae.jpg' },
-      { property: 'linkedin:url', content: 'https://rplu18.vercel.app/' },
-      { property: 'linkedin:title', content: 'RPL U 18' },
-      { property: 'linkedin:description', content: 'RPL U Angkatan 18' },
-      { property: 'linkedin:image', content: 'https://rplu18.vercel.app/_nuxt/img/bgawal.f2374ae.jpg' },
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
-        hid: "description",
-        name: "description",
-        content:
-          "RPL U Angkatan 18",
+        hid: 'robots',
+        name: 'robots',
+        content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
       },
-      { hid: "description", name: "author", content: "RPL U 18" },
-      {
-        name: "keywords",
-        content:
-          "Smkn 2 Kota Bekasi, Butun, SMK, Alumni Smkn 2 Kota Bekasi, jasa pembuatan website, web developer, desain website, video editing, editor, fotografi, kamera, google",
-      },
-
-      { name: "format-detection", content: "telephone=no" },
+      { hid: 'googlebot', name: 'googlebot', content: 'index, follow' },
+      { hid: 'keywords', name: 'keywords', content: siteMeta.keywords },
+      { hid: 'author', name: 'author', content: siteMeta.creator.name },
+      { hid: 'creator', name: 'creator', content: siteMeta.creator.name },
+      { hid: 'publisher', name: 'publisher', content: siteMeta.creator.name },
+      { name: 'application-name', content: siteMeta.siteName },
+      { name: 'theme-color', content: siteMeta.themeColor },
+      { name: 'format-detection', content: 'telephone=no' },
+      { hid: 'og:image:width', property: 'og:image:width', content: siteMeta.ogImageWidth },
+      { hid: 'og:image:height', property: 'og:image:height', content: siteMeta.ogImageHeight },
+      ...buildSeoMeta(),
     ],
     script: [
       {
-        type: "application/ld+json",
+        hid: 'ld-json-graph',
+        type: 'application/ld+json',
         json: {
-          "@context": "https://rplu18.vercel.app/",
-          "@type": "Person",
-          name: "RPL U 18",
-          url: "https://web.whatsapp.com/",
-          sameAs: [
-            "https://github.com/izanagi05",
-            "https://www.instagram.com/z.frs_slm05",
-            "https://www.linkedin.com/in/izanagi-faris-aslam-2b81842a2",
+          '@context': 'https://schema.org',
+          '@graph': [
+            {
+              '@id': `${siteMeta.url}#website`,
+              '@type': 'WebSite',
+              name: siteMeta.siteName,
+              alternateName: [
+                'XII RPL U Angkatan 18',
+                '12 RPL U SMKN 2 Kota Bekasi',
+                'RPL Unggulan SMKN 2 Kota Bekasi',
+                'RPL Industri SMKN 2 Kota Bekasi',
+              ],
+              description: siteMeta.description,
+              url: siteMeta.url,
+              inLanguage: 'id-ID',
+              creator: { '@id': `${siteMeta.creator.website}#identity` },
+              publisher: { '@id': `${siteMeta.creator.website}#identity` },
+            },
+            {
+              '@id': `${siteMeta.url}#school`,
+              '@type': 'EducationalOrganization',
+              name: siteMeta.schoolFullName,
+              alternateName: [siteMeta.school, 'Butun'],
+              department: {
+                '@type': 'Organization',
+                name: `${siteMeta.className} (${siteMeta.classAliases}) ${siteMeta.generation}`,
+                description:
+                  'Kelas XII Rekayasa Perangkat Lunak Unggulan / Kelas Industri Angkatan 18 periode 2021–2024.',
+              },
+            },
+            {
+              '@id': `${siteMeta.creator.website}#identity`,
+              '@type': 'Person',
+              name: siteMeta.creator.name,
+              givenName: siteMeta.creator.givenName,
+              familyName: siteMeta.creator.familyName,
+              jobTitle: siteMeta.creator.role,
+              description: siteMeta.creator.bio,
+              url: siteMeta.creator.website,
+              alumniOf: { '@id': `${siteMeta.url}#school` },
+              knowsAbout: siteMeta.creator.knowsAbout,
+              sameAs: [
+                siteMeta.creator.website,
+                siteMeta.creator.github,
+                siteMeta.creator.linkedin,
+                siteMeta.creator.instagram,
+              ],
+            },
           ],
-          jobTitle: "Web Developer, Videographer, Photographer, Musician",
-          worksFor: {
-            "@type": "Web Developer",
-            name: "RPL U 18",
-          },
         },
       },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'manifest', href: '/site.webmanifest' },
+      { rel: 'author', href: siteMeta.creator.website },
+      { hid: 'canonical', rel: 'canonical', href: siteMeta.url },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['~/assets/css/main.css'],
+
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -73,30 +102,18 @@ export default {
     },
   },
 
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-  ],
+  plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [
-  ],
+  buildModules: [],
 
-  // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-    // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios',
-  ],
+  modules: ['@nuxtjs/axios'],
 
-  // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
     baseURL: '/',
   },
 
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-  }
+  build: {},
 }

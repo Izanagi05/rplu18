@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+>
+  <url>
+    <loc>https://rplu18.vercel.app/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://rplu18.vercel.app/og-image.jpg</image:loc>
+      <image:title>XII RPL U Angkatan 18 — RPL Unggulan &amp; Industri SMKN 2 Kota Bekasi</image:title>
+      <image:caption>Buku tahunan digital dan portofolio kelas XII RPL U (RPL Unggulan / RPL Industri) SMKN 2 Kota Bekasi</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://rplu18.vercel.app/galery/1</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://rplu18.vercel.app/datajson/galery/img/ldkpd/7.jpg</image:loc>
+      <image:title>LDKPD CORE — XII RPL U SMKN 2 Kota Bekasi</image:title>
+      <image:caption>Awal dari sepatu hitam yang berpasangan</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://rplu18.vercel.app/galery/2</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://rplu18.vercel.app/datajson/galery/img/pjblcore/3.jpg</image:loc>
+      <image:title>PJBL Core — XII RPL U SMKN 2 Kota Bekasi</image:title>
+      <image:caption>Melangkah bersama dalam setiap kesempatan</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://rplu18.vercel.app/galery/3</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://rplu18.vercel.app/datajson/galery/img/teachersdaycore/3.jpg</image:loc>
+      <image:title>Teacher's Day — XII RPL U SMKN 2 Kota Bekasi</image:title>
+      <image:caption>Berkat guru tulus dan sabar tanpa batasan</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://rplu18.vercel.app/galery/4</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://rplu18.vercel.app/datajson/galery/img/graduationcore/25.jpg</image:loc>
+      <image:title>Graduation Core — XII RPL U SMKN 2 Kota Bekasi</image:title>
+      <image:caption>Dan ditutup dengan jas hitam demi masa depan</image:caption>
+    </image:image>
+  </url>
+</urlset>

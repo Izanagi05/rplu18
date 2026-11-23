@@ -1,69 +1,51 @@
-# classporto
+# Classporto — XII RPL U Angkatan 18
 
-## Build Setup
+Website buku tahunan digital (*digital yearbook*) dan portofolio kenangan kelas **XII RPL U Angkatan 18 — SMKN 2 Kota Bekasi (2021–2024)** yang dibangun dengan Nuxt 2, Vue 2, Vuex, Tailwind CSS, dan DaisyUI.
 
-```bash
-# install dependencies
-$ npm install
+Dokumentasi lengkap spesifikasi produk dan arsitektur tersedia di [PRD.md](./PRD.md).
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+## Struktur Proyek
 
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
+```text
+├── assets/
+│   ├── css/main.css              # Global base styles & shared utilities
+│   └── img/                      # Aset gambar hero, yearbook 3D, stiker & torn-paper
+├── components/
+│   ├── common/                   # Komponen reusable (BaseIcon, PolaroidCard, StrokeHeading)
+│   ├── gallery/                  # Komponen galeri Spotify-style (Header, Player, Masonry, Lightbox)
+│   ├── home/                     # Section halaman utama (Hero, Yearbook 3D, Memories, Closing)
+│   └── layout/                   # Komponen layout global (AppNavbar, SiteFooter)
+├── data/
+│   ├── siteMeta.js               # Metadata SEO, navigasi & tautan sosial terpusat
+│   └── homeContent.js            # Konten & daftar gambar terpusat halaman utama
+├── layouts/
+│   └── default.vue               # Layout utama Nuxt dengan AppNavbar
+├── pages/
+│   ├── index.vue                 # Halaman utama (Home)
+│   └── galery/
+│       ├── index.vue             # Redirect otomatis ke /galery/1
+│       └── _ide.vue              # Halaman galeri interaktif per album
+├── static/
+│   └── datajson/                 # Data JSON & koleksi foto 4 album (66 foto)
+└── store/
+    └── mystore.js                # Vuex store SSR-safe & cache data galeri
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+## Menjalankan Proyek
 
-## Special Directories
+> **Catatan Node.js**: Proyek ini menggunakan Nuxt 2 (Webpack 4). Disarankan menjalankan dengan **Node.js 16** atau **Node.js 18** dengan `NODE_OPTIONS=--openssl-legacy-provider`.
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+```bash
+# Install dependencies
+npm install
 
-### `assets`
+# Jalankan server development (http://localhost:8989)
+npm run dev
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+# Build produksi & jalankan server
+npm run build
+npm run start
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
-
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+# Generate static site
+npm run generate
+```

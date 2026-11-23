@@ -1,0 +1,17 @@
+{
+  "name": "Classporto — XII RPL U Angkatan 18 SMKN 2 Kota Bekasi",
+  "short_name": "RPL U 18",
+  "description": "Buku tahunan digital dan galeri kenangan kelas XII RPL U (RPL Unggulan / RPL Industri) Angkatan 18 SMKN 2 Kota Bekasi (2021–2024).",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1E1E1E",
+  "theme_color": "#1E1E1E",
+  "lang": "id",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}
